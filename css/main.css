@@ -61,7 +61,7 @@
     border-radius: 5px;
     background:
         linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-        url('home/window.jpg'); 
+        url('../home/window.jpg'); 
     background-repeat: no-repeat; 
     background-size: 100%; 
     background-position: center;
