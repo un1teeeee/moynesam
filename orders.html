@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/admin.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+    <div class="container">
+        <div class="header">
+            <div class="header-logo">
+                <a href="/orders.html" class="logo-link">#МойНеСам.admin</a>
+            </div>
+            <nav class="header-nav">
+                <a href="/" class="nav__item">Назад</a>
+            </nav>
+        </div>
+    </div>
+    </header>
+    
+    <div class="container">
+        <div class="admin-orders">
+            <div class="admin-orders__title">
+                <h1>Все заявки</h1>
+                <div class="stripes">
+                    <hr class="stripe1">
+                    <hr class="stripe2">
+                </div>
+            </div>
+            <div class="orders">
+                    <div class="card">
+                        <div class="card-info">
+                            <div class="card-title">
+                                <h3>Уборка</h3>
+                                <h3>Александр</h3>
+                                <h3>24.10.2025 | 10:00</h3>
+                            </div>
+                            <div class="card-about">
+                                <p>Адрес: г. Москва, ул. Пушкина д. 1</p>
+                                <p>Тел: +7(999)-999-99-99</p>
+                                <p>Тип оплаты:
+                                            Наличные
+                                            @break
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card-select">
+                            <form action="" method="POST">
+                                <select name="status">
+                                    <option value="0">В обработке</option>
+                                    <option value="1" selected>В работе</option>
+                                    <option value="2">Выполнено</option>
+                                    <option value="3">Отменено</option>
+                                </select>
+                                <button type="submit" class="save-btn">Сохранить</button>
+                            </form>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
