@@ -42,7 +42,7 @@
     border-radius: 5px;
     background:
         linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-        url('home/banner1.jpg');
+        url('../home/banner1.jpg');
     background-repeat: no-repeat;
     background-size: 100%; 
     background-position: center;
@@ -80,7 +80,7 @@
     border-radius: 5px;
     background:
         linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-        url('home/repair.jpg'); 
+        url('../home/repair.jpg'); 
         background-repeat: no-repeat; 
     background-size: 100%;
     background-position: center;
